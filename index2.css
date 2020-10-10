@@ -102,59 +102,7 @@
 	  list-style: none;
   }
   
-  .flex-direction-nav a{
-	  width: 30px;
-	  height: 30px;
-	  background:#1A89DF;
-	  border-radius: 5px;
   
-	  display: flex;
-	  justify-content: center;
-	  align-items: center;
-  
-	  text-decoration: none;
-	  opacity: 0;
-  
-	  position: absolute;
-	  top: 50%;
-	  margin-top: -20px;
-  
-	  transition: all 0.3s ease-in-out;
-	  margin:-100px 0px 0px 0px;
-  }
-  
-  .flex-direction-nav a::before{
-	  content: "\f104";
-	  font: normal normal normal 14px/1 FontAwesome;
-	  text-rendering: auto;
-	  -webkit-font-smoothing: antialiased;
-	  -moz-osx-font-smoothing: grayscale;
-  
-	  font-size: 50px;
-	  color: #fff;
-  }
-  
-  .flex-direction-nav a.flex-next::before{
-	  content: "\f105";
-  }
-  
-  .flex-direction-nav .flex-prev{
-	  left: 0px;
-  }
-  
-  .flex-direction-nav .flex-next{
-	  right: 0px;
-  }
-  
-  .flexslider:hover .flex-direction-nav .flex-prev{
-	  opacity: 1;
-	  left: 15px;
-  }
-  
-  .flexslider:hover .flex-direction-nav .flex-next{
-	  opacity: 1;
-	  right: 15px;
-  }
   
   /* CAPTION ==================*/
   .caption{
