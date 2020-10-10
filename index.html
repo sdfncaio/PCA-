@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Meu Portiólio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width. initial-scale=1*">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="index2.css">
+    <link rel="stylesheet" href="flexslider.css" type="text/css">
+    <script src="jquery-3.1.0.min.js"></script>
+    <script src="jquery.flexslider.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+    $(document).ready(function(){
+
+      $('.flexslider').flexslider({
+        prevText: "",
+        nextText: "",
+        pauseOnAction: false,
+        slideshowSpeed: 3000,
+        touch: true
+      });
+    
+    });
+  </script>
+</head>
+  
+    <body>
+        <div id="home">
+
+        </div>
+        <header id="menu">
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contatos">Contato</a></li>
+                </ul>
+
+            </div>   
+        </header>
+	<div class="flexslider">
+		<ul class="slides">
+
+			<li>
+				<img src="5.jpg" alt="">
+				<section class="caption">
+					<h2>Lorem slider #1</h2>
+				</section>
+			</li>
+
+			<li>
+				<img src="6.jpg" alt="">
+				<section class="caption">
+					<h2>Lorem slider #2</h2>
+				</section>
+			</li>
+
+			<li>
+				<img src="7.jpg" alt="">
+				<section class="caption">
+					<h2>Lorem slider #3</h2>
+				</section>
+			</li>
+
+		</ul>
+	</div>
+
+
+                <div class="wrap">      
+                    <div class="content" id="sobre">
+                        <div class="title">
+                            <h2>Sobre</h2>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="card-shadow">
+                                <img src="faculdade.png">
+                                <h3>Analise e desenvolvimento de Sistemas.</h3>
+                                <spn>No intuito de aprender mais sobre novas tecnologias e me especializar, estou cursando ADS pela Universidade Unigranrio.</spn>
+                        </div>
+                    
+                        <div class="card-shadow">
+                            <img src="micro.png">
+                            <h3>Operador de Microcomputadores.</h3>
+                            <spn>Concluí o curso de Op.Micro na Centro de instrução Almirante Alexandrino.</spn>
+                        </div>
+                        <div class="card-shadow">
+                            <img src="Redes.png">
+                            <h3>Operador de Redes.</h3>
+                            <spn>Concluí o curso de Op.Redes na Centro de instrução Almirante Alexandrino.</spn>
+                        </div>
+                    </div>
+                </div>
+                <div class="parallax">
+                        <h3 id="live">Live to Code!</h3>  
+                        <p id="text">A programação está em todo lugar que tem inovação e tecnologia,</br>
+                    faz parte do nosso cotidiana e está em constante crescente,</br>
+                     mas se engana quem acha que vai conseuir uma vaga fácil: dedicação, paciência e proficionalismo </br>faz parte da vida de um programador,</br>
+                     mas acima de tudo, a vontade de aprender e se atualizar </br>deve estar na lista de prioridades profissionais de um bom programador.</p>
+                </div>
+            <!-- Contatos -->
+            <div class="textcontatos">
+                <h2>Contatos</h2>
+            </div>
+        <div class="contatos" id="contatos">
+           <ul>
+               <li class="contatosli"><a href="https://github.com/fncaio" target="_blank"><img src="git.png"></a></li>
+               <li class="contatosli"><a href="https://www.linkedin.com/in/caio-martins-33ba641b4" target="_blank"><img src="lkpreto.png"></a></li>
+               <li class="contatosli"><a href=" https://api.whatsapp.com/send?phone=5521997809858" target="_blank"><img src="whatsapp1.png"></a></li>
+           </ul>
+        </div>
+    </body>
+</html>
