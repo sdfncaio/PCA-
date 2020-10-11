@@ -1,4 +1,5 @@
 
+
 /*Lembrar de colocar a tag ALT nos links*/
 
 
@@ -69,7 +70,7 @@ text-decoration: none;
 
 .menu ul li a:hover {
     border-bottom:white;
-    background-color:#40D3DC;
+    background-color:#388bd8;
     padding: 23px;
     color:white;
 }
@@ -99,7 +100,8 @@ text-decoration: none;
 }
 
 .card-shadow {
-  background-color:rgb(48, 159, 211);
+    background-color:rgba(0, 0, 0, 0.1); 
+    border-radius: 5px;
     overflow:auto;
     float:left;
     margin:0 7px;
@@ -239,6 +241,12 @@ text-decoration: none;
 .contatos ul li a:hover {
     padding:20px;
 }
+
+    
+
+
+
+
 
     
 
