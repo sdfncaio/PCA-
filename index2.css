@@ -57,9 +57,8 @@
   /* PAGINACION =======================*/
   
   .flex-control-nav.flex-control-paging{
-	  width: 120px;
+	  width: 140px;
 	  padding:-20px 0px 0px 0px;
-	  background: #1A89DF;
 	  border: 2px solid rgba(255,255,255,.3);
 	  border-radius: 10px;
 	  box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.80);
@@ -101,8 +100,18 @@
 	  z-index: 3;
 	  list-style: none;
   }
+
   
   
+  .flexslider:hover .flex-direction-nav .flex-prev{
+	  opacity: 1;
+	  left: 15px;
+  }
+  
+  .flexslider:hover .flex-direction-nav .flex-next{
+	  opacity: 1;
+	  right: 15px;
+  }
   
   /* CAPTION ==================*/
   .caption{
