@@ -23,6 +23,63 @@ header {
     margin:-50px 0px 0px 0px ;
 }
 
+div #menu-dep{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    height: 60px ;
+    width:100%;
+    background-color:rgb(0, 0, 0);
+    position: fixed;
+    z-index: 5;
+    margin:-50px 0px 0px 0px ;
+}
+
+.dep h1{
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 15px 0px 0px 50px;
+}
+.menu-dep{
+    width: 100%;
+    height: 60px;
+    float:center;
+    background-color:black;  
+}
+.menu-dep ul li{
+    padding:20px;
+    cursor: pointer;
+    height: 60px;
+
+}
+.menu-dep ul li a {
+    color:#40D3DC;
+    cursor: pointer;
+    
+}
+
+.menu-dep ul li a {
+text-decoration: none;
+}
+
+.menu-dep ul li a:hover {
+    border-bottom:white;
+    background-color:#388bd8;
+    padding: 23px;
+    color:white;
+}
+
+
+.menu-dep ul {
+    width: 100%;
+    height:60px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-end;
+    margin:0px 0px 0px -65px;
+
+}
 
 
 body{
@@ -33,11 +90,91 @@ body{
 }
 
 .menu {
-    width: 100%;
+    width: 25%;
     height: 60px;
-    float:right;
+    float:center;
     background-color:black;
+}
+
+.tituloDepoimento{
+    margin:0px;
+    padding: 0%;
+    max-width: 100%;
+    width: 50%;
+}
+.btn-dep button {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin:0px 0px 0px 55px;
+    padding: 0%;
+    max-width: 100%;
+    width: 100px;
+    min-width: 25%;
+    height: 25px;
+    min-height: 30px;
+    background-color:#388bd8;;
+    align-items: center;
+}
+
+
+
+.depoimento {
+    margin:0px;
+    padding: 0%;
+    max-width: 100%;
+    width: 50%;
+}
+
+.link-back{
+    margin:0px;
+    padding: 0%;
+    max-width: 100%;
+    width: 50%;
+}
+
+.btndepoimento {
+    padding: 15px 45px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    margin:20px 0px 30px 570px ;
+}
+
+.dep{
+    margin: 0%;
+    padding: 0%;
+    max-width: 100%;
     
+}
+
+.dep textarea{
+    margin: 50px 0px 0px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px ;
+}
+
+.container-dep{
+    margin: 0%;
+    padding: 0%;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+    background-color: rgb(166, 166, 194);
+}
+
+.link-back {
+    text-align: center;
+    width:98%;
+    max-width: 100%;
+    align-items: 100%;
+    padding: 10px 0px 0px 0px;
+    color:rgb(0, 0, 0)  
+}
+
+.link-back a{
+    color:rgb(0, 0, 0)  
 }
 
 .menu ul {
@@ -96,7 +233,7 @@ text-decoration: none;
     flex-direction: row;
     width: 98%;
     align-items: center;
-    margin:0px 0px 0px 5px;
+    margin:0px 0px 5px 30px;
 }
 
 .card-shadow {
@@ -119,6 +256,7 @@ text-decoration: none;
 }
 
 .card-shadow img{
+    padding: 2px 0px 0px 0px;
     width: 100px; 
 }
 
@@ -147,6 +285,8 @@ text-decoration: none;
 }
 
 .parallax {
+    LINE-HEIGHT:25px;
+    text-align: right;
     flex-direction: row;
     justify-content: center;
     height: 400px;
@@ -158,7 +298,25 @@ text-decoration: none;
     background-color: rgba(0, 0, 0, .75);
     background-blend-mode: multiply;
     background-attachment: fixed;
-    margin:0px;
+    margin:10px 0px 0px 30px ;
+    overflow: hidden;
+}
+
+.parallax-dep{
+    text-align: right;
+    flex-direction: row;
+    justify-content: center;
+    height: 400px;
+    display:flex;
+    width:100%;
+    align-items: center;
+    background-image: url('notecode.jpg');
+    background-size:cover;
+    background-color: rgba(0, 0, 0, .75);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    margin:10px 0px 0px 0px ;
+    overflow: hidden;
 }
 
 #text {
