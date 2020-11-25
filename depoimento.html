@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Conexão</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width. initial-scale=1*">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="index2.css">
+    <link rel="stylesheet" href="flexslider.css" type="text/css">
+    <script src="jquery-3.1.0.min.js"></script>
+    <script src="jquery.flexslider.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+    $(document).ready(function(){
+
+      $('.flexslider').flexslider({
+        prevText: "",
+        nextText: "",
+        pauseOnAction: false,
+        slideshowSpeed: 3000,
+        touch: true
+      });    
+    });
+  </script>
+
+</head>
+    <body>
+        <div id="menu-dep">
+            <div class="menu-dep">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contatos">Dicas</a></li>
+                </ul>
+            </div>   
+        </div>
+    <div class="container-dep">
+        <div class="dep">    
+            <h1 class="tituloDepoimento">Deixe uma palavra de ânimo para o seu próximo.</h1>
+            <textarea cols="50" rows="15" class= "depoimento" id="depoimento" placeholder="Digite seu depoimento"></textarea>
+        </div>
+        <div class="btn-dep" >
+            <button type="button" class="btndepoimento" onclick="criarDepoimento();">Postar Depoimento</button>
+        </div>
+            
+            <div class="link-back"><a href="index.html">VOLTAR A PÁGINA ANTERIOR</a>
+            </div>
+        
+            <script src="depoimento.js"></script>
+        
+                
+        <div class="parallax-dep">
+            <h3 id="live">DEPOIMENTO</h3>  
+            <p id="text"></br>
+           </p>
+        </div>
+        
+        <div class="textcontatos">
+            <h2><a href="https://www.inca.gov.br/como-parar-de-fumar" style="color:black;" >Como parar de fumar</a></h2>
+            </div>
+        <div class="contatos" id="contatos">
+           <ul>
+               <li class="contatosli"><a href="https://github.com/fncaio" target="_blank"><img src="git.png"></a></li>
+               <li class="contatosli"><a href="https://www.linkedin.com/in/caio-martins-33ba641b4" target="_blank"><img src="lkpreto.png"></a></li>
+               <li class="contatosli"><a href=" https://api.whatsapp.com/send?phone=5521997809858" target="_blank"><img src="whatsapp1.png"></a></li>
+           </ul>
+        </div>
+    </div>
+    </body>
+</html>      
+    
